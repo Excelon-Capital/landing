@@ -710,6 +710,21 @@ footer {
     color: var(--light-text);
 }
 
+.footer-social {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-social a {
+    color: var(--light-text);
+    font-size: 1.2rem;
+}
+
+.footer-social a:hover {
+    color: var(--accent-color);
+}
+
 .legal {
     margin-top: 2rem;
     font-size: 0.9rem;
